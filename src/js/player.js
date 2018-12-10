@@ -5,7 +5,7 @@ class Player {
 		this.sprite = null;
 
 		// Variables for holding the players lanes
-		this.laneXPositions = [106, 320, 532];
+		this.laneXPositions = [55, 150, 245];
 		this.playerLane = 0;
 		this.moving = false;
 		this.x = 0;
@@ -26,23 +26,35 @@ class Player {
 	update() {
 		var targetX = this.laneXPositions[this.playerLane];
 
-		this.x += 150 * this.gameState.game.time.physicsElapsed;
-		//this.sprite.x += 120 * this.gameState.game.time.physicsElapsed;
+		if(targetX	!= this.x){
+			var xDir = 0;
+
+			if(targetX > this.x) {
+				xDir = 1;
+			}
+
+			if(targetX < this.x) {
+				xDir = -1;
+			}
+
+			var xMovement = (PLAYER_SPEED * xDir) * this.gameState.game.time.physicsElapsed;
+
+			this.x += xMovement;
+		}
+
+		this.y = this.gameState.camera.visibleWorldHeight() - (this.height / 2);
 	}
 
 	preRender() {
 		var computedSize = this.gameState.camera.computeWorldAreaToPixelRectangle({x:this.x, y:this.y}, {x:this.width, y:this.height});
-		console.log(computedSize);
 		if(this.sprite){
 			this.sprite.position.setTo(computedSize.x, computedSize.y);
-			//this.sprite.size.setTo(computedSize.width, computedSize.height);
 			this.sprite.width = computedSize.width;
 			this.sprite.height = computedSize.height;
 		}
 	}
 
 	movePlayer(direction) {
-		console.log("Moving player in the direction " + direction)
 		var lane = this.playerLane + direction;
 		if(lane < 0)
 			lane = 0;

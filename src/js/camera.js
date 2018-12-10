@@ -9,13 +9,16 @@ class Camera{
 	}
 
 	calculateCameraRatio(){
-		return 0.00 + this.screenWidth / this.visibleWorldUnits;
+		var ratio = 0.00 + this.screenWidth / this.visibleWorldUnits;
+		console.log(ratio);
+		return ratio;
 	}
 
 	refreshScreenSize(screenWidth, screenHeight){
 		this.screenWidth = screenWidth;
 		this.screenHeight = screenHeight;
 		this.screenRatio = this.calculateCameraRatio();
+		console.log(screenWidth + " - " + screenHeight);
 	}
 
 	computeWorldPositionToPixelPosition(worldPosition) {
@@ -30,8 +33,10 @@ class Camera{
 		result.y = pixelPos.y;
 		result.width = unitSize.x * this.screenRatio;
 		result.height = unitSize.y * this.screenRatio;
-		console.log("Area to pixel:");
-		console.log(result);
 		return result;
+	}
+
+	visibleWorldHeight() {
+		return this.screenHeight / this.screenRatio;
 	}
 }

@@ -2,11 +2,9 @@ var gameState = {
 	preload: function() {
 		this.load.image('player', 'assets/images/player/player.png');
 
-		this.camera = new Camera(this, 640, 960, 300);
+		this.camera = new Camera(this, 640, 1000, 300);
 		this.player = new Player(this);
 		this.ui = new DoggyDashUI(this);
-
-		this.done = false;
 	},
 	create: function() {
 		// Take up as much room as possible
@@ -21,12 +19,7 @@ var gameState = {
 		this.setupKeyboardInputs();
 	},
 	update: function(time, delta) {
-		if(!this.done) {
-			console.log(this.game.time);
-			this.done =true;
-		}
 		this.player.update();
-		console.log(this.camera.computeWorldAreaToPixelRectangle({x:25,y:25},{x:100,y:100}));
 	},
 	preRender() {
 		this.player.preRender();
