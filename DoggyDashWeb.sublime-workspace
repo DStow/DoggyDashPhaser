@@ -1,0 +1,718 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"newAN",
+				"newAnimalMovement"
+			],
+			[
+				"curre",
+				"currentAnimalMovement"
+			],
+			[
+				"curr",
+				"currentAnimalMovement"
+			],
+			[
+				"newAn",
+				"newAnimalMovement"
+			],
+			[
+				"cen",
+				"centerY"
+			],
+			[
+				"user",
+				"user_pick_pixel"
+			],
+			[
+				"buy",
+				"feather_buyer"
+			],
+			[
+				"_pla",
+				"_playerInstances"
+			],
+			[
+				"_player",
+				"_playerInstances"
+			],
+			[
+				"get_next_",
+				"get_next_player_port"
+			],
+			[
+				"min",
+				"ore_minner"
+			],
+			[
+				"seconds",
+				"secondsSinceOreClick"
+			],
+			[
+				"pixelLoc",
+				"pixelLocation"
+			],
+			[
+				"seco",
+				"secondsSinceOreClick"
+			],
+			[
+				"pixelLo",
+				"pixelColour"
+			],
+			[
+				"inve",
+				"inventoryPixelColour"
+			],
+			[
+				"camera",
+				"cameraCheckCount"
+			],
+			[
+				"feath",
+				"feathersLeft"
+			],
+			[
+				"is",
+				"is_stack_in_inv_at_pos"
+			],
+			[
+				"invAr",
+				"invAreaX"
+			],
+			[
+				"_inv",
+				"_invSpacing"
+			],
+			[
+				"_invS",
+				"_invStartX"
+			],
+			[
+				"_in",
+				"_invStartX"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/js/gameState.js",
+			"settings":
+			{
+				"buffer_size": 1389,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "build/combiner.json",
+			"settings":
+			{
+				"buffer_size": 141,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/js/player.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "player.js"
+			}
+		},
+		{
+			"file": "src/index.html",
+			"settings":
+			{
+				"buffer_size": 579,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "DoggyDashWeb.sublime-project",
+			"settings":
+			{
+				"buffer_size": 45,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "# All of the JS files reqquired in order for DoggyDashWeb project\nsrc/js/player.js\nsrc/js/gameState.js\nrc/js/main.js",
+			"file": "build/combine_files.txt",
+			"file_size": 120,
+			"file_write_time": 131889361143305595,
+			"settings":
+			{
+				"buffer_size": 116,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"combine",
+				"CombineAndMinfiy: Build"
+			],
+			[
+				"b",
+				"CombineAndMinfiy: Build"
+			],
+			[
+				"build",
+				"CombineAndMinfiy: Build"
+			],
+			[
+				"cmd",
+				"CombineAndMinfiy: Build"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"origami",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"clone right pane",
+				"Origami: Clone File to Pane on the Right"
+			],
+			[
+				"origamie des",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"MOVE PANE RIGHT",
+				"Origami: Move File to Pane on the Right"
+			],
+			[
+				"origami destroy ",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"origamie clone",
+				"Origami: Clone File to Pane on the Left"
+			],
+			[
+				"origamie right",
+				"Origami: Move File to Pane on the Right"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"view",
+				"File: New View into File"
+			],
+			[
+				"project ",
+				"Project: Add Folder"
+			],
+			[
+				"remove packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"jslint",
+				"JSLint"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"add package",
+				"Package Control: Add Channel"
+			],
+			[
+				"folder",
+				"Project: Add Folder"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"close fol",
+				"File: Close All"
+			],
+			[
+				"select col",
+				"UI: Select Color Scheme"
+			],
+			[
+				"theme",
+				"UI: Select Theme"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"pyto",
+				"Set Syntax: Python"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+			"explorer",
+			"explorer .",
+			"exit",
+			"exit()",
+			"print(\"Hello\")",
+			"asd",
+			"ls",
+			"pip",
+			"pipenv"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/Code/DoggyDashPhaser",
+		"/D/Code/DoggyDashPhaser/build",
+		"/D/Code/DoggyDashPhaser/src",
+		"/D/Code/DoggyDashPhaser/src/js"
+	],
+	"file_history":
+	[
+		"/D/Code/DoggyDashPhaser/src/js/doggyDashWeb.js",
+		"/D/Code/DoggyDashPhaser/build/jsCombineFileList.txt",
+		"/D/Code/DoggyDashPhaser/src/DoggyDashWeb.sublime-project",
+		"/C/Users/Dan_S/Desktop/udemy-phaser-course/Toddler Farm Animal/15-sound/js/main.js",
+		"/D/Code/PhaserUdemy/1 Farm Game/js/gameState.js",
+		"/D/Code/DoggyDashPhaser/src/index.html",
+		"/D/Code/DoggyDashPhaser/src/js/main.js",
+		"/D/Code/PhaserUdemy/1 Farm Game/js/main.js",
+		"/D/Code/DoggyDashPhaser/src/js/gameState.js",
+		"/D/Code/PhaserUdemy/1 Farm Game/index.html",
+		"/C/Users/Dan_S/Desktop/udemy-phaser-course/Toddler Farm Animal/01-empty game/index.html",
+		"/D/Code/PhaserUdemy/1 Farm Game/FarmGame.js",
+		"/D/Code/RPGTextPrototype/RPGTextPrototype/Content/font.spritefont",
+		"/C/Users/Dan_S/Desktop/X3 Notes",
+		"/D/Code/HandScannerTool/HandScannerAndroid/Properties/AndroidManifest.xml",
+		"/D/Program Files (x86)/Microsoft Visual Studio/2017/Community/Common7/IDE/devenv.exe",
+		"/D/GOG Games/X3 Terran War Pack/res.dat",
+		"/D/Code/HandScannerTool/.gitignore",
+		"/D/Code/HandScannerTool/HandScannerWeb/bin/ConnectionStrings.config",
+		"/D/Code/HandScannerTool/HandScannerAndroid/Resources/layout/bag_create_activity.axml",
+		"/D/Code/HandScannerTool/HandScannerAndroid/Activities/BagUploadActivity.cs",
+		"/D/Code/HandScannerTool/HandScannerAndroid/Activities/LocationScanActivity.cs",
+		"/D/Code/HandScannerTool/README.md",
+		"/C/Users/Dan_S/Source/Repos/ZerbaScannerTest/ZerbaScannerTest/Properties/AndroidManifest.xml",
+		"/C/Users/Dan_S/Desktop/samples-emdkforxamarin-2_5-BarcodeSample1/BarcodeSample1/BarcodeSample1/Properties/AndroidManifest.xml",
+		"/F/Code/IsItFridayYet/main.py",
+		"/F/Code/IsItFridayYet/send_sms.py",
+		"/F/Code/MultiplayerSnake/MultiplayerSnake/MultiplayerSnakePythonGameServer/playerinstance.py",
+		"/F/Code/MultiplayerSnake/.gitignore",
+		"/F/Code/MultiplayerSnake/MultiplayerSnake/MultiplayerSnakePythonGameServer/main.py",
+		"/F/Code/OSRSBot/main.py",
+		"/F/Code/MultiplayerSnake/MultiplayerSnake/MultiplayerSnakePythonGameServer/tcpserver.py",
+		"/F/Code/MultiplayerSnake/MultiplayerSnake/MultiplayerSnakePythonGameServer/udpserver.py",
+		"/F/Code/MultiplayerSnake/MultiplayerSnake/MultiplayerSnakePythonGameServer/udpclient.py",
+		"/F/Code/OSRSBot/rotatetest.py",
+		"/F/Code/OSRSBot/rotatetest",
+		"/F/Code/OSRSBot/mainTkinter.py",
+		"/F/Code/MultiplayerSnake/MultiplayerSnake/MultiplayerSnakePythonGameServer/GameServer.log",
+		"/F/Code/MultiplayerSnake/MultiplayerSnake/MultiplayerSnakePythonGameServer/server.log",
+		"/F/Code/DoggyDash/DoggyDashWebsite/DoggyDashWebsite/Web.config",
+		"/F/Code/MultiplayerSnake/MultiplayerSnake/MultiplayerSnakeGameServer/AppSettings.config",
+		"/F/Code/MultiplayerSnake/MultiplayerSnake/MultiplayerSnakeWebServer/ConnectionStrings.config",
+		"/D/Dropbox/Test.txt"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			".",
+			"D:\\Code\\PhaserUdemy"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"add.sprite",
+			"animateAn",
+			"var self",
+			"Moving Player in the direction",
+			"playerLane",
+			"'}\n",
+			"setupArrow",
+			"setupArrows",
+			"};\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/js/gameState.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1389,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								924,
+								924
+							]
+						],
+						"settings":
+						{
+							"markdonw_live_preview_last_run": 1544461813.31,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "build/combiner.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 141,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								141,
+								141
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/js/player.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "player.js",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 579,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								411,
+								411
+							]
+						],
+						"settings":
+						{
+							"markdonw_live_preview_last_run": 1544461842.99,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "DoggyDashWeb.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 45,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								45,
+								45
+							]
+						],
+						"settings":
+						{
+							"markdonw_live_preview_last_run": 1544462091.37,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "build/combine_files.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								103,
+								103
+							]
+						],
+						"settings":
+						{
+							"markdonw_live_preview_last_run": 1544462137.8,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 126.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "DoggyDashWeb.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"gamestate",
+				"DoggyDashPhaser\\src\\js\\gameState.js"
+			],
+			[
+				"pl",
+				"F:\\Code\\MultiplayerSnake\\MultiplayerSnake\\MultiplayerSnakePythonGameServer\\playerinstance.py"
+			],
+			[
+				"main",
+				"F:\\Code\\MultiplayerSnake\\MultiplayerSnake\\MultiplayerSnakePythonGameServer\\main.py"
+			],
+			[
+				"pla",
+				"F:\\Code\\MultiplayerSnake\\MultiplayerSnake\\MultiplayerSnakePythonGameServer\\playerinstance.py"
+			],
+			[
+				"tcp",
+				"tcpserver.py"
+			],
+			[
+				"web.config",
+				"DoggyDashWebsite\\DoggyDashWebsite\\Web.config"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"markdown_live_preview_window": true
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 191.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
