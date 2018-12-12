@@ -104,30 +104,14 @@
 	"buffers":
 	[
 		{
-			"file": "src/js/gameState.js",
+			"contents": "Package Control Messages\n========================\n\nOrigami\n-------\n\n  Origami\n     the art of folding paper\n  \n  https://github.com/SublimeText/Origami\n  \n  Origami is a new way of thinking about panes in Sublime Text:\n  you tell Sublime Text where you want a new pane, and it makes one for you.\n  It works seamlessly alongside the built-in layout commands.\n  \n  All commands are available under the View>Origami menu, as well as in the\n  command palette (search for Origami).\n  \n  Keybindings also exist for most commands. Origami shortcuts start by pressing\n  and releasing ctrl+k (or cmd+k), followed by a second shortcut, like this:\n   * ctrl/cmd+k, then an arrow: move focus to the pane in that direction\n   * ctrl/cmd+k, then shift+arrow: move the current file to the destination\n   * ctrl/cmd+k, then alt/option+arrow: clone the current file to the destination\n   * ctrl/cmd+k, then ctrl/cmd+arrow: create an adjacent pane\n   * ctrl/cmd+k, then ctrl/cmd+shift+arrow: destroy an adjacent pane\n",
 			"settings":
 			{
-				"buffer_size": 796,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/index.html",
-			"settings":
-			{
-				"buffer_size": 410,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/js/player.js",
-			"settings":
-			{
-				"buffer_size": 769,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
+				"buffer_size": 999,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
 			}
 		}
 	],
@@ -142,6 +126,18 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Install Package Control"
+			],
+			[
+				"theme",
+				"UI: Select Color Scheme"
+			],
 			[
 				"close project",
 				"Project: Close"
@@ -189,10 +185,6 @@
 			[
 				"cmd",
 				"CombineAndMinfiy: Build"
-			],
-			[
-				"install ",
-				"Package Control: Install Package"
 			],
 			[
 				"origami",
@@ -255,20 +247,12 @@
 				"Project: Add Folder"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"close fol",
 				"File: Close All"
 			],
 			[
 				"select col",
 				"UI: Select Color Scheme"
-			],
-			[
-				"theme",
-				"UI: Select Theme"
 			],
 			[
 				"inst",
@@ -321,12 +305,13 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Code/DoggyDashPhaser",
-		"/D/Code/DoggyDashPhaser/src",
-		"/D/Code/DoggyDashPhaser/src/js"
+		"/C/Code/DoggyDashPhaser"
 	],
 	"file_history":
 	[
+		"/C/Code/DoggyDashPhaser/src/js/gameState.js",
+		"/C/Code/DoggyDashPhaser/src/index.html",
+		"/C/Code/DoggyDashPhaser/src/js/player.js",
 		"/D/Code/DoggyDashPhaser/Gruntfile.js",
 		"/D/Code/DoggyDashPhaser/.gitignore",
 		"/D/Code/DoggyDashPhaser/src/js/.gitignore",
@@ -385,7 +370,7 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -431,69 +416,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/js/gameState.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 796,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								796,
-								796
-							]
-						],
-						"settings":
-						{
-							"markdonw_live_preview_last_run": 1544469528.73,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 410,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								410,
-								410
-							]
-						],
-						"settings":
-						{
-							"markdonw_live_preview_last_run": 1544472660.22,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		},
 		{
@@ -501,32 +425,33 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
-					"file": "src/js/player.js",
+					"buffer": 0,
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 769,
+						"buffer_size": 999,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								663,
-								663
+								382,
+								382
 							]
 						],
 						"settings":
 						{
-							"markdonw_live_preview_last_run": 1544471832.39,
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -582,7 +507,7 @@
 	"project": "DoggyDashWeb.sublime-project",
 	"replace":
 	{
-		"height": 72.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -648,7 +573,7 @@
 		],
 		"width": 592.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 		"markdown_live_preview_window": true

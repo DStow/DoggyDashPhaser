@@ -1,6 +1,6 @@
 class CreateObstacle {
 	constructor(gameState) {
-		this.gmaeState = gameState;
+		this.gameState = gameState;
 		this.sprite = null;
 		this.width = 50;
 		this.height = 50;
