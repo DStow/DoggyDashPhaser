@@ -65,5 +65,6 @@ class Player {
 
 		// Set player position
 		this.sprite.position.setTo(this.laneXPositions[this.playerLane], 960 - (this.sprite.height / 2));
+		this.gameState.score+=1;
 	}
 }

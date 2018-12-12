@@ -1,10 +1,13 @@
 var gameState = {
 	preload: function() {
 		this.load.image('player', 'assets/images/player/player.png');
+		this.load.image('crate', 'assets/images/obstacles/create.png');
 
-		this.camera = new Camera(this, 640, 1000, 300);
+		this.camera = new Camera(this, 640, 1100, 300);
 		this.player = new Player(this);
+		this.testCrate = new CreateObstacle(this);
 		this.ui = new DoggyDashUI(this);
+		this.score = 0;
 	},
 	create: function() {
 		// Take up as much room as possible
@@ -15,14 +18,18 @@ var gameState = {
 		this.scale.pageAlignVertically = true;
 
 		this.player.create();
+		this.testCrate.create();
 		this.ui.create();
 		this.setupKeyboardInputs();
 	},
 	update: function(time, delta) {
 		this.player.update();
+		this.testCrate.update();
+		this.ui.update();
 	},
 	preRender() {
 		this.player.preRender();
+		this.testCrate.preRender();
 	},
 	setupKeyboardInputs: function () {
 		this.keyboard = game.input.keyboard;
