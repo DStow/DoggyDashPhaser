@@ -5,7 +5,6 @@ class Player {
 		this.sprite = null;
 
 		// Variables for holding the players lanes
-		this.laneXPositions = [55, 150, 245];
 		this.playerLane = 0;
 		this.moving = false;
 		this.x = 0;
@@ -24,7 +23,7 @@ class Player {
 	}
 
 	update() {
-		var targetX = this.laneXPositions[this.playerLane];
+		var targetX = this.gameState.laneXPositions[this.playerLane];
 
 		if(targetX	!= this.x){
 			var xDir = 0;
@@ -64,7 +63,7 @@ class Player {
 		this.playerLane = lane;
 
 		// Set player position
-		this.sprite.position.setTo(this.laneXPositions[this.playerLane], 960 - (this.sprite.height / 2));
+		this.sprite.position.setTo(this.gameState.laneXPositions[this.playerLane], 960 - (this.sprite.height / 2));
 		this.gameState.score+=1;
 	}
 }

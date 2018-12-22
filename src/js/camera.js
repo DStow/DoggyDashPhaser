@@ -39,4 +39,8 @@ class Camera{
 	visibleWorldHeight() {
 		return this.screenHeight / this.screenRatio;
 	}
+
+	visibleWorldWidth() {
+		return this.visibleWorldUnits;
+	}
 }

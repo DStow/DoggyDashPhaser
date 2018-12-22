@@ -1,12 +1,16 @@
 var gameState = {
 	preload: function() {
+		// ToDo: Move this to functions of hte objectS?
 		this.load.image('player', 'assets/images/player/player.png');
 		this.load.image('crate', 'assets/images/obstacles/crate.png');
+		this.load.image('asteroid', 'assets/images/obstacles/asteroid.png');
 		this.load.image('touchbar', 'assets/images/ui/touchpanel.png');
 
 		this.camera = new Camera(this, 640, 1100, 300);
+		this.laneXPositions =  [55, 150, 245];
 		this.player = new Player(this);
 		this.testCrate = new CreateObstacle(this);
+		this.testObject = new AsteroidObstacle(this);
 		this.ui = new DoggyDashUI(this);
 		this.score = 0;
 	},
@@ -20,17 +24,20 @@ var gameState = {
 
 		this.player.create();
 		this.testCrate.create();
+		this.testObject.create();
 		this.ui.create();
 		this.setupKeyboardInputs();
 	},
 	update: function(time, delta) {
 		this.player.update();
 		this.testCrate.update();
+		this.testObject.update();
 		this.ui.update();
 	},
 	preRender() {
 		this.player.preRender();
 		this.testCrate.preRender();
+		this.testObject.preRender();
 		this.ui.preRender();
 	},
 	setupKeyboardInputs: function () {
