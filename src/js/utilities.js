@@ -1,4 +1,4 @@
-class fixedTimer {
+class FixedTimer {
 	constructor(gameState, seconds, enabled) {
 		this.gameState = gameState;
 

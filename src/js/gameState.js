@@ -9,8 +9,7 @@ var gameState = {
 		this.camera = new Camera(this, 640, 1100, 300);
 		this.laneXPositions =  [55, 150, 245];
 		this.player = new Player(this);
-		this.testCrate = new CreateObstacle(this);
-		this.testObject = new AsteroidObstacle(this);
+		this.obstacleSpawner = new ObstacleSpawner(this);
 		this.ui = new DoggyDashUI(this);
 		this.score = 0;
 	},
@@ -23,22 +22,20 @@ var gameState = {
 		this.scale.pageAlignVertically = true;
 
 		this.player.create();
-		this.testCrate.create();
-		this.testObject.create();
+		this.obstacleSpawner.create();
 		this.ui.create();
 		this.setupKeyboardInputs();
 	},
-	update: function(time, delta) {
+	update: function() {
+		var elapsedTime = this.game.time.physicsElapsed;
 		this.player.update();
-		this.testCrate.update();
-		this.testObject.update();
 		this.ui.update();
+		this.obstacleSpawner.update(elapsedTime);
 	},
 	preRender() {
 		this.player.preRender();
-		this.testCrate.preRender();
-		this.testObject.preRender();
 		this.ui.preRender();
+		this.obstacleSpawner.preRender();
 	},
 	setupKeyboardInputs: function () {
 		this.keyboard = game.input.keyboard;

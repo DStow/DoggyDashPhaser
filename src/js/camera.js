@@ -10,7 +10,6 @@ class Camera{
 
 	calculateCameraRatio(){
 		var ratio = 0.00 + this.screenWidth / this.visibleWorldUnits;
-		console.log(ratio);
 		return ratio;
 	}
 
@@ -18,7 +17,6 @@ class Camera{
 		this.screenWidth = screenWidth;
 		this.screenHeight = screenHeight;
 		this.screenRatio = this.calculateCameraRatio();
-		console.log(screenWidth + " - " + screenHeight);
 	}
 
 	computeWorldPositionToPixelPosition(worldPosition) {
