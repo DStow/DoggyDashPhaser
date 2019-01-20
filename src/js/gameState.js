@@ -5,6 +5,7 @@ var gameState = {
 		this.load.image('crate', 'assets/images/obstacles/crate.png');
 		this.load.image('asteroid', 'assets/images/obstacles/asteroid.png');
 		this.load.image('touchbar', 'assets/images/ui/touchpanel.png');
+		this.load.image('testrect', 'assets/images/testrect.png');
 
 		this.camera = new Camera(this, 640, 1100, 300);
 		this.laneXPositions =  [55, 150, 245];
